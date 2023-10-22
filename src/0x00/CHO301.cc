@@ -1,5 +1,7 @@
+#include <stdio.h>
 #include <vector>
 
+// 递归实现指数型枚举
 // CH0301
 // 从1~n 这n(n < 20) 个整数中随机选取任意多个，输出所有可能的选择方案
 std::vector<int> chosen;
